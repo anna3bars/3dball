@@ -1,0 +1,52 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ overflow-x: hidden;
+}
+
+.details {
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 2rem;
+}
+
+
+canvas {
+ width: 100vw;
+ height: 100vh;
+}
+.ball-text {
+ position: fixed;
+  z-index: 2;
+  color: white;
+  font-size: 5rem;
+  right: 20%;
+  bottom: 40%;
+  transform: translate(-20%, -60%);
+}
+
+
+
+@media screen and (max-width: 1024px) {
+ .ball-text {
+   font-size: 2rem;
+   right: 50%;
+   bottom: 25%;
+   transform: translate(50%, 50%);
+ }
+ h1 {
+   font-size: 2rem;
+ }
+}
+
+
+
+
+
+
+
